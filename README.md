@@ -45,7 +45,7 @@ Our project is designed to enhance security by detecting unauthorized access usi
    ```sh
    sqlite3 honeytoken.db
    ```
-2. Create the `honeypot_logs` table:
+2. Create the `honey_token` table:
    ```sql
    CREATE TABLE honeypot_logs (
        id INTEGER PRIMARY KEY AUTOINCREMENT,
