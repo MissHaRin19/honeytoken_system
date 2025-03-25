@@ -6,6 +6,7 @@ Our project is designed to enhance security by detecting unauthorized access usi
 
 ### Phase 1: Intrusion Detection Trap
 - Initially developed a basic security mechanism where all file accesses redirected to a decoy, triggering an alert.
+- https://github.com/MissHaRin19/intrusion_detection_trap
 
 ### Phase 2: Honeytoken System (Current Phase)
 - Created a system that monitors specific files (honeytokens) for unauthorized access.
