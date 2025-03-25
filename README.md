@@ -2,7 +2,7 @@
 
 ## Project Roadmap
 
-Our project is designed to enhance security by detecting unauthorized access using honeytokens. It is structured into three phases:
+This project is designed to enhance security by detecting unauthorized access using honeytokens. It is structured into three phases:
 
 ### Phase 1: Intrusion Detection Trap
 - Initially developed a basic security mechanism where all file accesses redirected to a decoy, triggering an alert.
