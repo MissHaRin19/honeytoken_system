@@ -32,7 +32,7 @@ def save_to_db(file_path, image_filename):
         ip_address = get_ip()
 
         cursor.execute(
-            "INSERT INTO honeypot_logs (file_path, file_name, captured_image, timestamp, ip_address) VALUES (?, ?, ?, ?, ?)",
+            "INSERT INTO honey_token (file_path, file_name, captured_image, timestamp, ip_address) VALUES (?, ?, ?, ?, ?)",
             (file_path, file_name, image_filename, timestamp, ip_address)
         )
 
