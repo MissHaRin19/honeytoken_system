@@ -15,9 +15,9 @@ This project is designed to enhance security by detecting unauthorized access us
 - Sends an email alert with the captured image and details of the accessed file.
 
 ### Phase 3: Honeytoken-Based Intrusion Detection System (Future Work)
-- Expand the system to track user behavior over time.
-- Implement employee check-in/check-out tracking.
-- Enhance anomaly detection to identify suspicious file access patterns.
+- Behavioral Analysis – Go beyond detecting honeytoken access by identifying suspicious patterns, such as multiple rapid file accesses.
+- User Activity Tracking – Enhance the check-in/check-out system to monitor user roles and expected behaviors for better anomaly detection.
+- Automated Response – Move beyond just alerts by implementing file access restrictions based on detected suspicious behavior.
 
 ## Implementation: Honeytoken System
 
